@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Video</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" text-white bg-black ">
+    <!-- Navbar -->
+    <nav class="bg-black p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-500">Prime Video</h1>
+            <div class="hidden md:flex space-x-4">
+                <a href="#" class="hover:text-blue-400">Home</a>
+                <a href="#" class="hover:text-blue-400">Movies</a>
+                <a href="#" class="hover:text-blue-400">TV Shows</a>
+                <a href="#" class="hover:text-blue-400">My List</a>
+            </div>
+            <button class="md:hidden text-white text-2xl">☰</button>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+     <div class="bg-[url(https://en.shiftdelete.net/wp-content/uploads/2023/06/prime-video-june-2023-1.jpg)] bg-fixed">
+    <div class="relative h-[400px] md:h-[600px] bg-cover  bg-center flex items-center justify-center " 
+         style="background-image: url('https://image.tmdb.org/t/p/original/dQ5ByxobAlXsnFbMGXldGrz4PKZ.jpg');">
+        <div class="bg-black bg-opacity-30 p-6 text-center">
+            <h2 class="text-4xl md:text-6xl font-bold text-blue-700">Welcome to Prime Video</h2>
+            <p class="text-2xl md:text-2xl mt-2 bg-black">Watch the latest movies & TV shows anytime, anywhere.</p>
+            <button class="mt-4 px-6 py-3 bg-blue-500 rounded hover:bg-blue-600 bg-black">Start Watching</button>
+        </div>
+    </div>
+    </div>
+    
+    <!-- Movie Grid -->
+    <div class="container mx-auto p-6">
+        <h3 class="text-3xl font-bold mb-4">Popular Movies</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            <img src="https://image.tmdb.org/t/p/w500/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg" class="rounded-lg shadow-lg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHfPvnd7Lj7ETZ3LkMIAlYLi_OiO6UgGG_pQ&s" class="rounded-lg shadow-lg">
+            <img src="https://images.justwatch.com/poster/323297929/s332/season-2" class="rounded-lg shadow-lg">
+            <img src="https://cf-img-a-in.tosshub.com/sites/visualstory/wp/2024/10/image-4159.png?size=*:900" class="rounded-lg shadow-lg">
+            <img src="https://images.filmibeat.com/ph-big/2025/02/ott-releases-this-week-latest-movies-webseries-on-amazon-prime-video-netflix-zee5-more1738908386_2.jpg" class="rounded-lg shadow-lg">
+            <img src="https://media.gqindia.com/wp-content/uploads/2021/12/Harry-Potter-1-440x550.jpeg" class="rounded-lg shadow-lg">
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="bg-black text-center p-4 mt-6">
+        <p>&copy; 2025 Prime Video. All rights reserved.</p>
+        <p>Privacy Policy | Terms of Service</p>
+    </footer>
+</body>
+</html>
